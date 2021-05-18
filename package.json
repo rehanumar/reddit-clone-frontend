@@ -4,13 +4,13 @@
   "description": "Clone of the reddit cyber security sub-reddit.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "url": "git@github.com:rehanumar/reddit-clone-frontend.git"
   },
   "engines": {
     "npm": ">=5",
     "node": ">=8.15.1"
   },
-  "author": "Max Stoiber",
+  "author": "Rehan Umar",
   "license": "MIT",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
