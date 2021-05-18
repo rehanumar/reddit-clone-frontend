@@ -1,9 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<NotFoundPage /> should render and match the snapshot 1`] = `
-<h1>
-  <span>
-    This is the NotFoundPage container!
-  </span>
-</h1>
+<div
+  class="NotFoundPage__StyledContainer-sc-1fx1nk0-0 ixDPff"
+>
+  <img
+    alt="surprised face"
+    src="IMAGE_MOCK"
+  />
+  <h1>
+    page not found
+  </h1>
+  <p>
+    the page you requested does not exist
+  </p>
+</div>
 `;

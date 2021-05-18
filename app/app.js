@@ -24,7 +24,19 @@ import LanguageProvider from 'containers/LanguageProvider';
 
 // Load the favicon and the .htaccess file
 /* eslint-disable import/no-unresolved, import/extensions */
-import '!file-loader?name=[name].[ext]!./images/favicon.ico';
+import '!file-loader?name=[name].[ext]!./images/apple-icon-57x57.png';
+import '!file-loader?name=[name].[ext]!./images/apple-icon-60x60.png';
+import '!file-loader?name=[name].[ext]!./images/apple-icon-72x72.png';
+import '!file-loader?name=[name].[ext]!./images/apple-icon-76x76.png';
+import '!file-loader?name=[name].[ext]!./images/apple-icon-114x114.png';
+import '!file-loader?name=[name].[ext]!./images/apple-icon-120x120.png';
+import '!file-loader?name=[name].[ext]!./images/apple-icon-144x144.png';
+import '!file-loader?name=[name].[ext]!./images/apple-icon-152x152.png';
+import '!file-loader?name=[name].[ext]!./images/apple-icon-180x180.png';
+import '!file-loader?name=[name].[ext]!./images/favicon-16x16.png';
+import '!file-loader?name=[name].[ext]!./images/favicon-32x32.png';
+import '!file-loader?name=[name].[ext]!./images/favicon-96x96.png';
+import '!file-loader?name=[name].[ext]!./images/ms-icon-144x144.png';
 import 'file-loader?name=.htaccess!./.htaccess';
 /* eslint-enable import/no-unresolved, import/extensions */
 

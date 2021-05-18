@@ -6,14 +6,22 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import styled from 'styled-components';
+import NotFoundImage from 'images/not-found.png';
 
-import messages from './messages';
+const StyledContainer = styled.div`
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+`;
 
 export default function NotFound() {
   return (
-    <h1>
-      <FormattedMessage {...messages.header} />
-    </h1>
+    <StyledContainer>
+      <img src={NotFoundImage} alt="surprised face" />
+      <h1>page not found</h1>
+      <p>the page you requested does not exist</p>
+    </StyledContainer>
   );
 }
