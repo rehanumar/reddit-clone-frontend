@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarPanel /> Expect to have additional unit tests specified 1`] = `
+<div
+  class="Card-neputd-0 ivdfyp"
+  style="width: 370px;"
+>
+  <div
+    class="SidebarPanel__StyledHead-sc-17k1qi6-0 ixVMhF"
+  >
+    <h2
+      class="SidebarPanel__StyledHeading-sc-17k1qi6-1 ljJdBj"
+    >
+      About Community
+    </h2>
+  </div>
+  <div
+    class="SidebarPanel__StyledBody-sc-17k1qi6-2 gsiLXt"
+  />
+</div>
+`;

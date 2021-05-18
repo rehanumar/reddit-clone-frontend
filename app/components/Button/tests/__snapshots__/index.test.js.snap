@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render with parent props 1`] = `
+<button
+  class="Button-boo9v0-0 gKLEuk"
+  color="body"
+  fill="body"
+  font-weight="12"
+  height="30px"
+  width="40px"
+/>
+`;
