@@ -26,7 +26,7 @@ const StyledHeader = styled.header`
   display: flex;
   align-items: center;
   background: ${props => props.theme.body};
-  padding: 10px 15px;
+  padding: 6px 20px;
   z-index: 2;
   position: fixed;
   top: 0;
@@ -39,10 +39,10 @@ const StyledIcon = styled.div`
   fill: ${props => props.theme.actionIcon};
   border-radius: 4px;
   float: left;
-  max-height: 24px;
-  max-width: 24px;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 70px;
+  display: flex;
+  align-items: center;
   margin: 0 5px;
 `;
 
@@ -65,7 +65,7 @@ const StyledLogoIcon = styled(LogoIcon)`
 
 const StyledLogo = styled(Logo)`
   height: 18px;
-  margin: 0 20px 0 10px;
+  margin: 0 20px 0 8px;
   fill: ${props => props.theme.bodyText} !important;
 
   @media (max-width: 1050px) {
@@ -75,6 +75,12 @@ const StyledLogo = styled(Logo)`
 
 const StyledBtnLink = styled(BtnLink)`
   vertical-align: middle;
+  min-width: 77px;
+  height: 32px;
+  display: inline-block;
+  text-align: center;
+  padding: 6px 16px;
+
   @media (max-width: 600px) {
     display: none;
   }
@@ -118,23 +124,21 @@ function Header({ theme, darkMode, dispatch, toggleDarkMode }) {
           borderColor="newRedditThemeButton"
           color="newRedditThemeButton"
         >
-          Login
+          Log In
         </StyledBtnLink>
         <StyledBtnLink
           background="newRedditThemeButton"
           borderColor="newRedditThemeButton"
-          style={{ marginLeft: '20px' }}
+          style={{ marginLeft: '14px' }}
         >
           Sign Up
         </StyledBtnLink>
         <DropDown
           selected={
-            <>
-              <StyledIcon>
-                <PersonIcon />
-              </StyledIcon>
+            <StyledIcon>
+              <PersonIcon style={{width: '24px'}} />
               <StyledDownArrowIcon />
-            </>
+            </StyledIcon>
           }
         >
           <DropdownHeading>View options</DropdownHeading>

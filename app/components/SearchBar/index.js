@@ -12,7 +12,7 @@ const StyledSearchDropDown = styled.div`
   position: relative;
   fill: ${props => props.theme.navIcon};
   display: inline-flex;
-  max-width: 690px;
+  max-width: 656px;
   flex-grow: 1;
   margin: 0 auto;
 `;
@@ -23,7 +23,7 @@ const StyledLabel = styled.label`
   left: 0;
   height: 18px;
   margin-left: 16px;
-  margin-top: -9px;
+  margin-top: -11px;
 `;
 
 const StyledIcon = styled(SearchIcon)`
@@ -46,6 +46,7 @@ const StyledInput = styled.input`
   outline: none;
   padding: 0 16px 0 40px;
   width: 100%;
+  font-size: 14px;
 `;
 
 function SearchBar() {
