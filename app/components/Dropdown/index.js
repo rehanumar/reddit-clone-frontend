@@ -16,8 +16,8 @@ const StyledDropdown = styled.ul`
   margin-block-start: 0;
   margin-block-end: 0;
   list-style: none;
-  padding: 0;
-  margin-left: 15px;
+  padding: 2px 0;
+  margin-left: 8px;
   border: 1px solid transparent;
 
   position: relative;

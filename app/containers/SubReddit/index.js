@@ -56,7 +56,7 @@ const StyledPageHeaderContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 984px;
+  max-width: 1024px;
   padding: 0 16px 0 24px;
 `;
 
@@ -71,8 +71,8 @@ const StyledImage = styled.img`
   border-radius: 100%;
   border: 4px solid ${props => props.theme.body};
   display: inline-block;
-  height: 72px;
-  width: 72px;
+  height: 80px;
+  width: 80px;
 `;
 
 const CommunityWrapper = styled.div`
@@ -133,12 +133,13 @@ const StyledTabsWrapper = styled.div`
 const TabStyles = styled.div`
   & .nav-link.${props => props.selectedTab} {
     border-bottom: 3px solid ${props => props.theme.navBarActiveLink};
+    color: ${props => props.theme.bodyText};
   }
   & .nav-link {
     display: inline-block;
     vertical-align: middle;
     border-bottom: 3px solid transparent;
-    color: ${props => props.theme.bodyText};
+    color: ${props => props.theme.metaText};
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
@@ -216,7 +217,7 @@ export function SubReddit({ posts, theme, match, dispatch, loadSubReddit }) {
                   <StyledMetaText>r/cybersecurity</StyledMetaText>
                 </CommunityNameWrapper>
                 <ButtonWrapper>
-                  <Button>Join</Button>
+                  <Button style={{width: '96px', height: '32px'}}>Join</Button>
                 </ButtonWrapper>
               </CommunityWrapper>
             </StyledPageHeader>
@@ -264,7 +265,7 @@ export function SubReddit({ posts, theme, match, dispatch, loadSubReddit }) {
           <StyledSidebar>
             <SidebarPanel heading="About Community">
               <div>
-                <div style={{ marginBottom: '8px' }}>
+                <div style={{ marginBottom: '8px', fontSize: '14px' }}>
                   Welcome to cybersecurity
                 </div>
                 <div style={{ display: 'flex', marginBottom: '12px' }}>
@@ -301,7 +302,7 @@ export function SubReddit({ posts, theme, match, dispatch, loadSubReddit }) {
                     margin: '16px 0',
                   }}
                 />
-                <div>Created May 20, 2010</div>
+                <div style={{fontSize: '14px'}}>Created May 20, 2010</div>
               </div>
             </SidebarPanel>
           </StyledSidebar>

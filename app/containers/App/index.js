@@ -27,7 +27,7 @@ import GlobalStyle, { theme, darkTheme } from '../../global-styles';
 
 const StyledPage = styled.div`
   position: relative;
-  top: 56px;
+  top: 48px;
 `;
 
 function App({ darkMode, dispatch, toggleDarkMode }) {
